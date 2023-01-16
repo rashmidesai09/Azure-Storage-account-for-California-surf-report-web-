@@ -10,12 +10,6 @@ Create a storage account for a southern Goan surf report web app. The surf repor
 - The site must handle unexpected spikes in upload volume.
 - Outdated content must be removed as surf conditions change so the site always shows current conditions.
 
-### Steps followed in brief -
-
-- Buffer uploaded content in an Azure Queue for processing and then transfer it to an Azure Blob for persistent storage. 
-- Create a storage account that can hold both queues and blobs while delivering low-latency access to the content.
-
-
 #### Create a storage account using Azure portal as follows -
 1. Sign in to the Azure portal using the same account you used to activate the sandbox.
 
