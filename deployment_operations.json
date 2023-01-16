@@ -1,0 +1,65 @@
+[
+  {
+    "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Resources/deployments/stg4californiarpt_1673843666980/operations/AA33C54232FB55CF",
+    "operationId": "AA33C54232FB55CF",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-01-16T04:35:19.8522262Z",
+      "duration": "PT40.4721323S",
+      "trackingId": "e1c12bac-49b2-457d-b9d3-7d40da8d4e26",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/fileservices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/fileservices",
+        "resourceName": "stg4californiarpt/default"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Resources/deployments/stg4californiarpt_1673843666980/operations/C7699DB14D4D0072",
+    "operationId": "C7699DB14D4D0072",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-01-16T04:35:19.449698Z",
+      "duration": "PT40.0696041S",
+      "trackingId": "0a861784-2b99-4a97-9c2e-f674c9c1c282",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/blobServices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+        "resourceName": "stg4californiarpt/default"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Resources/deployments/stg4californiarpt_1673843666980/operations/AF57DCA70BC56864",
+    "operationId": "AF57DCA70BC56864",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-01-16T04:35:18.3068211Z",
+      "duration": "PT38.9267272S",
+      "trackingId": "8dc8b73d-b8ac-4b21-87a0-dd5e06d6b292",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "stg4californiarpt"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Resources/deployments/stg4californiarpt_1673843666980/operations/08585277632101254451",
+    "operationId": "08585277632101254451",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-01-16T04:35:19.9177973Z",
+      "duration": "PT40.5377034S",
+      "trackingId": "af0d364c-1a8d-411d-b68d-9124b97c574a",
+      "statusCode": "OK"
+    }
+  }
+]

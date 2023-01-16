@@ -1,0 +1,192 @@
+{
+  "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Resources/deployments/stg4californiarpt_1673843666980",
+  "name": "stg4californiarpt_1673843666980",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourcegroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt",
+    "marketplaceItemId": "Microsoft.StorageAccount-ARM",
+    "provisioningHash": "Default"
+  },
+  "properties": {
+    "templateHash": "17286508557100108792",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "southindia"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "stg4californiarpt"
+      },
+      "accountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "kind": {
+        "type": "String",
+        "value": "StorageV2"
+      },
+      "accessTier": {
+        "type": "String",
+        "value": "Hot"
+      },
+      "minimumTlsVersion": {
+        "type": "String",
+        "value": "TLS1_2"
+      },
+      "supportsHttpsTrafficOnly": {
+        "type": "Bool",
+        "value": true
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "allowBlobPublicAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowSharedKeyAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowCrossTenantReplication": {
+        "type": "Bool",
+        "value": false
+      },
+      "defaultOAuth": {
+        "type": "Bool",
+        "value": false
+      },
+      "networkAclsBypass": {
+        "type": "String",
+        "value": "AzureServices"
+      },
+      "networkAclsDefaultAction": {
+        "type": "String",
+        "value": "Allow"
+      },
+      "dnsEndpointType": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "keySource": {
+        "type": "String",
+        "value": "Microsoft.Storage"
+      },
+      "encryptionEnabled": {
+        "type": "Bool",
+        "value": true
+      },
+      "keyTypeForTableAndQueueEncryption": {
+        "type": "String",
+        "value": "Account"
+      },
+      "infrastructureEncryptionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "isContainerRestoreEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "isBlobSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "isContainerSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "changeFeed": {
+        "type": "Bool",
+        "value": false
+      },
+      "isVersioningEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "isShareSoftDeleteEnabled": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-01-16T04:35:19.9341285Z",
+    "duration": "PT42.4965257S",
+    "correlationId": "e488e826-28ae-4d8a-b9b6-9dc86e8c4cb5",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "southindia"
+            ]
+          },
+          {
+            "resourceType": "storageAccounts/blobServices",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "storageAccounts/fileservices",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "stg4californiarpt"
+          }
+        ],
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/blobServices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+        "resourceName": "stg4californiarpt/default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "stg4californiarpt"
+          },
+          {
+            "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/blobServices/default",
+            "resourceType": "Microsoft.Storage/storageAccounts/blobServices",
+            "resourceName": "stg4californiarpt/default"
+          }
+        ],
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/fileservices/default",
+        "resourceType": "Microsoft.Storage/storageAccounts/fileservices",
+        "resourceName": "stg4californiarpt/default"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt"
+      },
+      {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/blobServices/default"
+      },
+      {
+        "id": "/subscriptions/3cd1fb9b-842c-4e66-a941-c2bf3281f963/resourceGroups/learn-ff640054-dcc9-46b0-aee4-e84c6d6e35b4/providers/Microsoft.Storage/storageAccounts/stg4californiarpt/fileservices/default"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
