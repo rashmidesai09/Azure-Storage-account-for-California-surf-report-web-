@@ -1,10 +1,10 @@
 # Azure Storage account for Goa surf report web
 
-## Problem Statement 
+## Project Overview : 
 
 Create a storage account for a southern Goan surf report web app. The surf report site should let users upload photos and videos of local beach conditions. Viewers will use the content to help them choose the beach with the best surfing conditions
  
-### List of design and feature goals is-
+### List of design and feature goals are -
 
 - Video content must load quickly.
 - The site must handle unexpected spikes in upload volume.
