@@ -11,7 +11,7 @@ Create a storage account for a southern Goan surf report web app. The surf repor
 - Outdated content must be removed as surf conditions change so the site always shows current conditions.
 
 #### Create a storage account using Azure portal as follows -
-1. Sign in to the Azure portal using the same account you used to activate the sandbox.
+1. Sign in to the Azure portal.
 
 2. On the resource menu, or from the Home page, select Storage accounts. The Storage accounts pane appears.
 
